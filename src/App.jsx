@@ -4,6 +4,7 @@ import { InlineStyle } from './components/InlineStyle';
 import { CSSModules } from './components/CSSModules';
 import { StyledJsx } from './components/StyledJsx';
 import { StyledComponents } from './components/StyledComponents';
+import { Emotion } from './components/Emotion';
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <CSSModules />
       <StyledJsx />
       <StyledComponents />
+      <Emotion />
     </div>
   );
 }
